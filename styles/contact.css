@@ -1,0 +1,54 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+
+section{
+  margin: 20px 0;
+}
+
+.picture{
+  text-align: center;
+}
+
+.informations{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.informations .text{
+  margin: 0 20px;
+}
+
+.informations img{
+  height:250px;
+  width:272px;
+}
+
+.socialnetworks{
+  display: flex;
+  justify-content: center;
+}
+
+.socialnetworks a{
+  margin: 20px;
+}
+
+.socialnetworks img{
+  height:40px;
+  width: auto;
+}
+
+@media screen and (max-width: 768px){
+  .informations{
+    flex-direction: column;
+  }
+  .informations img{
+    padding-top:20px;
+  }
+  .socialnetworks{
+    padding-bottom: 50px;
+  }
+}
