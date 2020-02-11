@@ -6,6 +6,9 @@ body {
   a{
     text-decoration: none;
   }
+h1{
+  display:none;
+}
 
 /* HEADER */
 nav ul{
@@ -36,14 +39,17 @@ border-bottom: 1px solid white;
 }
 .menuItem:hover .subMenu{
   display: flex;
-  background-color: white;
+  background-color: black;
   z-index: 1;
+}
+.menuItem:hover .subMenu li:hover{
+  background-color:#161616;
 }
 .subMenu li {
   padding: 15px 20px;
 }
 .subMenu li a {
-color: black;
+color: white;
 }
 
 /* FOOTER */
@@ -53,7 +59,7 @@ footer img{
   right: 20%;
 }
 
-/* MEDIA QUERIES */
+/* RESPONSIVE */
 
   /* HAMBURGER MENU*/
 
